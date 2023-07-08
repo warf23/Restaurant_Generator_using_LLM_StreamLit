@@ -13,5 +13,5 @@ if cusinie :
     
     menu_item = response['menu_items'].split(',')
     st.header("Menu Items")
-    for item in menu_item : 
+    for item in menu_item :
         st.write("-", item)
